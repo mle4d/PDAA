@@ -14,9 +14,9 @@ body {
 Header {
   text-align: right;
   padding-right: 2%;
-  margin-top: -8%;
+  margin-top: -2%;
   font-family: 'Helvetica Neue', sans-serif;
-  font-size: 4em;
+  font-size: 3em;
   color: #454545;
 }
 h2 {
@@ -25,11 +25,25 @@ h2 {
 h1 {
   line-height: 5%;
   letter-spacing: 20px;
-  font-size: 3.5em;
-  color: #d3d3d3;
+  font-size: 3em;
+  color: #ffd100;
   position: fixed;
-  right: 4.5%;
-  top: 2%;
+  right: 4%;
+  top: 13%;
   z-index: +1;
-  
+}
+.container {
+  max-width: 60%;
+  height: 90vh;
+  margin-top: -27%;
+  text-align: wrap;
+  transform: scale(0.98);
+  transition: transform 0.5s;
+  opacity: 1;
+  border: solid 2px #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
