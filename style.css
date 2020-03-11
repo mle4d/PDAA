@@ -59,7 +59,7 @@ h1 {
   align-self: flex-start;
   /* background-color: #000000; */
   -webkit-filter: drop-shadow( 0 0 50px #797979);
-  filter: drop-shadow( 0 0 50px #797979);
+  filter: grayscale(100%) drop-shadow( 0 0 50px #797979);
 }
 .actor {
   background-image:url(assets/aq1.png);
@@ -73,7 +73,7 @@ h1 {
   margin-top:-17%;
   /* background-color: #000000; */
   -webkit-filter: drop-shadow( 0 0 50px #797979);
-  filter: drop-shadow( 0 0 50px #797979);
+  filter: grayscale(100%) drop-shadow( 0 0 50px #797979);
 }
 .dancer {
   background-image:url(assets/dance1.png);
@@ -87,7 +87,7 @@ h1 {
   /* margin-top:-8%; */
   /* background-color: #000000; */
   -webkit-filter: drop-shadow( 0 0 50px #797979);
-  filter: drop-shadow( 0 0 50px #797979);
+  filter: grayscale(100%) drop-shadow( 0 0 50px #797979);
 }
 .paint {
   background-image:url(assets/paint1.png);
@@ -101,5 +101,5 @@ h1 {
   /* border: solid 2px red; */
   /* background-color: #000000; */
   -webkit-filter: drop-shadow( 0 0 50px #797979);
-  filter: drop-shadow( 0 0 50px #797979);
+  filter: grayscale(100%) drop-shadow( 0 0 50px #797979);
 }
