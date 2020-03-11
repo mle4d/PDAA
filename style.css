@@ -1,0 +1,12 @@
+html {
+  box-sizing: border-box;
+  background-image:url(assets/bg2.jpg);
+  background-repeat: no-repeat;
+  background-color: #000000;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center bottom;
+}
+body {
+  margin: 0;
+}
