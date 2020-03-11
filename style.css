@@ -1,12 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poiret+One&display=swap');
 html {
   box-sizing: border-box;
-  background-image:url(assets/bg2.jpg);
+  /* background-image:url(assets/bg.png); */
   background-repeat: no-repeat;
-  background-color: #000000;
+  background-color: #303030;
   background-attachment: fixed;
   background-size: cover;
   background-position: center bottom;
 }
 body {
   margin: 0;
+}
+Header {
+  text-align: right;
+  padding-right: 2%;
+  margin-top: -8%;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 4em;
+  color: #454545;
+}
+h2 {
+  line-height: 200%;
+}
+h1 {
+  line-height: 5%;
+  letter-spacing: 20px;
+  font-size: 3.5em;
+  color: #d3d3d3;
+  position: fixed;
+  right: 4.5%;
+  top: 2%;
+  z-index: +1;
+  
 }
