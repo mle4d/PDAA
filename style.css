@@ -61,6 +61,11 @@ h1 {
   -webkit-filter: drop-shadow( 0 0 50px #797979);
   filter: grayscale(100%) drop-shadow( 0 0 50px #797979);
 }
+.mural:hover {
+  filter: drop-shadow( 0 0 50px #797979);
+  background-size: 100%;
+  background-position: center left;
+}
 .actor {
   background-image:url(assets/aq1.png);
   width: 43%;
@@ -74,6 +79,11 @@ h1 {
   /* background-color: #000000; */
   -webkit-filter: drop-shadow( 0 0 50px #797979);
   filter: grayscale(100%) drop-shadow( 0 0 50px #797979);
+}
+.actor:hover {
+  filter: drop-shadow( 0 0 50px #797979);
+  background-size: 110%;
+  background-position: center left;
 }
 .dancer {
   background-image:url(assets/dance1.png);
@@ -89,6 +99,11 @@ h1 {
   -webkit-filter: drop-shadow( 0 0 50px #797979);
   filter: grayscale(100%) drop-shadow( 0 0 50px #797979);
 }
+.dancer:hover {
+  filter: drop-shadow( 0 0 50px #797979);
+  background-size: 90%;
+  background-position: center left;
+}
 .paint {
   background-image:url(assets/paint1.png);
   width: 58%;
@@ -102,4 +117,9 @@ h1 {
   /* background-color: #000000; */
   -webkit-filter: drop-shadow( 0 0 50px #797979);
   filter: grayscale(100%) drop-shadow( 0 0 50px #797979);
+}
+.paint:hover {
+  filter: drop-shadow( 0 0 50px #797979);
+  background-size: 90%;
+  background-position: center left;
 }
