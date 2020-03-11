@@ -3,7 +3,7 @@ html {
   box-sizing: border-box;
   /* background-image:url(assets/bg.png); */
   background-repeat: no-repeat;
-  background-color: #303030;
+  background-color: #000000;
   background-attachment: fixed;
   background-size: cover;
   background-position: center bottom;
@@ -26,7 +26,7 @@ h1 {
   line-height: 5%;
   letter-spacing: 20px;
   font-size: 3em;
-  color: #ffd100;
+  color: #d3d3d3;
   position: fixed;
   right: 4%;
   top: 13%;
@@ -34,8 +34,8 @@ h1 {
 }
 .container {
   max-width: 60%;
-  height: 90vh;
-  margin-top: -27%;
+  height: 100vh;
+  margin-top: -30%;
   text-align: wrap;
   transform: scale(0.98);
   transition: transform 0.5s;
@@ -43,7 +43,49 @@ h1 {
   border: solid 2px #ffffff;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
+}
+.mural {
+  background-image:url(assets/urban1.png);
+  width: 45%;
+  height: 37%;
+  background-size: 96%;
+  background-repeat: no-repeat;
+  background-position: top;
+  /* border: solid 2px red; */
+  align-self: flex-start;
+}
+.actor {
+  background-image:url(assets/aq1.png);
+  width: 45%;
+  height: 40%;
+  background-size: 90%;
+  /* border: solid 2px red; */
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  align-self: flex-start;
+}
+.dancer {
+  background-image:url(assets/dance1.png);
+  width: 30%;
+  height: 62%;
+  background-size: 95%;
+  background-repeat: no-repeat;
+  background-position: right;
+  /* border: solid 2px red; */
+  align-self: flex-end;
+  margin-top:-5%;
+}
+.paint {
+  background-image:url(assets/paint1.png);
+  width: 50%;
+  height: 46%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  align-self: baseline;
+  /* border: solid 2px red; */
+  margin-top:-1.2%;
 }
