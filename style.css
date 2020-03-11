@@ -3,7 +3,7 @@ html {
   box-sizing: border-box;
   /* background-image:url(assets/bg.png); */
   background-repeat: no-repeat;
-  background-color: #000000;
+  background-color: #2e2e2e;
   background-attachment: fixed;
   background-size: cover;
   background-position: center bottom;
@@ -43,49 +43,63 @@ h1 {
   border: solid 2px #ffffff;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
 .mural {
   background-image:url(assets/urban1.png);
   width: 45%;
-  height: 37%;
+  height: 40%;
   background-size: 96%;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: top right;
   /* border: solid 2px red; */
+  margin-top: -1%;
   align-self: flex-start;
+  /* background-color: #000000; */
+  -webkit-filter: drop-shadow( 0 0 50px #797979);
+  filter: drop-shadow( 0 0 50px #797979);
 }
 .actor {
   background-image:url(assets/aq1.png);
-  width: 45%;
-  height: 40%;
-  background-size: 90%;
+  width: 43%;
+  height: 60%;
+  background-size: 100%;
   /* border: solid 2px red; */
-  background-position: bottom left;
+  background-position: bottom right;
   background-repeat: no-repeat;
   align-self: flex-start;
+  margin-top:-17%;
+  /* background-color: #000000; */
+  -webkit-filter: drop-shadow( 0 0 50px #797979);
+  filter: drop-shadow( 0 0 50px #797979);
 }
 .dancer {
   background-image:url(assets/dance1.png);
   width: 30%;
-  height: 62%;
-  background-size: 95%;
+  height: 52%;
+  background-size: 80%;
   background-repeat: no-repeat;
   background-position: right;
   /* border: solid 2px red; */
   align-self: flex-end;
-  margin-top:-5%;
+  /* margin-top:-8%; */
+  /* background-color: #000000; */
+  -webkit-filter: drop-shadow( 0 0 50px #797979);
+  filter: drop-shadow( 0 0 50px #797979);
 }
 .paint {
   background-image:url(assets/paint1.png);
-  width: 50%;
-  height: 46%;
-  background-size: 100%;
+  width: 58%;
+  height: 35%;
+  background-size: 80%;
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom left;
   align-self: baseline;
+  margin-top: 3%;
   /* border: solid 2px red; */
-  margin-top:-1.2%;
+  /* background-color: #000000; */
+  -webkit-filter: drop-shadow( 0 0 50px #797979);
+  filter: drop-shadow( 0 0 50px #797979);
 }
