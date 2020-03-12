@@ -50,11 +50,11 @@ h1 {
 .mural {
   background-image:url(assets/urban1.png);
   width: 45%;
-  height: 45%;
+  height: 44%;
   background-size: 80%;
   background-repeat: no-repeat;
   background-position: bottom right;
-  border: solid 2px red;
+  /* border: solid 2px red; */
   /* margin-top: -1%; */
   align-self: flex-start;
   /* background-color: #000000; */
@@ -63,15 +63,15 @@ h1 {
 }
 .mural:hover {
   filter: drop-shadow( 0 0 50px #797979);
-  background-size: 100%;
-  background-position: center left;
+  background-size: 90%;
+  background-position: center right;
 }
 .actor {
   background-image:url(assets/actor1.png);
   width: 45%;
-  height: 45%;
+  height: 44%;
   background-size: 80%;
-  border: solid 2px red;
+  /* border: solid 2px red; */
   background-position: bottom left;
   background-repeat: no-repeat;
   align-self: flex-start;
@@ -82,17 +82,17 @@ h1 {
 }
 .actor:hover {
   filter: drop-shadow( 0 0 50px #797979);
-  background-size: 100%;
+  background-size: 90%;
   background-position: center left;
 }
 .dancer {
   background-image:url(assets/dancer1.png);
   width: 45%;
-  height: 45%;
+  height: 44%;
   background-size: 80%;
   background-repeat: no-repeat;
   background-position: bottom right;
-  border: solid 2px red;
+  /* border: solid 2px red; */
   align-self: flex-end;
   /* margin-top:-8%; */
   /* background-color: #000000; */
@@ -102,18 +102,18 @@ h1 {
 .dancer:hover {
   filter: drop-shadow( 0 0 50px #797979);
   background-size: 90%;
-  background-position: center left;
+  background-position: center right;
 }
 .paint {
   background-image:url(assets/paint1.png);
   width: 45%;
-  height: 45%;
+  height: 44%;
   background-size: 80%;
   background-repeat: no-repeat;
   background-position: bottom left;
   align-self: flex-end;
   /* margin-top: 3%; */
-  border: solid 2px red;
+  /* border: solid 2px red; */
   /* background-color: #000000; */
   -webkit-filter: drop-shadow( 0 0 50px #797979);
   filter: grayscale(100%) drop-shadow( 0 0 50px #797979);
