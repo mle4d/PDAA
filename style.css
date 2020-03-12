@@ -33,14 +33,16 @@ h1 {
   z-index: +1;
 }
 .container {
-  max-width: 60%;
-  height: 100vh;
-  margin-top: -30%;
+  max-width: 45%;
+  height: 80vh;
+  margin-top: -25%;
+  margin-left: 10%;
   text-align: wrap;
   transform: scale(0.98);
   transition: transform 0.5s;
   opacity: 1;
-  border: solid 2px #ffffff;
+  background-color: #242424;
+  /* border: solid 2px #ffffff; */
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -49,32 +51,34 @@ h1 {
 }
 .mural {
   background-image:url(assets/urban1.png);
-  width: 45%;
-  height: 44%;
+  width: 50%;
+  height: 49%;
   background-size: 80%;
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom left;
   /* border: solid 2px red; */
   /* margin-top: -1%; */
-  align-self: flex-start;
+  align-self: flex-end;
+  transition: all ease 1s;
   /* background-color: #000000; */
   -webkit-filter: drop-shadow( 0 0 50px #797979);
   filter: grayscale(100%) drop-shadow( 0 0 50px #797979);
 }
 .mural:hover {
   filter: drop-shadow( 0 0 50px #797979);
-  background-size: 90%;
-  background-position: center right;
+  background-position: center center;
+  transform: scale(1.1);
 }
 .actor {
   background-image:url(assets/actor1.png);
-  width: 45%;
-  height: 44%;
+  width: 50%;
+  height: 49%;
   background-size: 80%;
   /* border: solid 2px red; */
-  background-position: bottom left;
+  background-position: bottom right;
   background-repeat: no-repeat;
-  align-self: flex-start;
+  align-self: flex-end;
+  transition: all ease 1s;
   /* margin-top:-17%; */
   /* background-color: #000000; */
   -webkit-filter: drop-shadow( 0 0 50px #797979);
@@ -82,18 +86,19 @@ h1 {
 }
 .actor:hover {
   filter: drop-shadow( 0 0 50px #797979);
-  background-size: 90%;
-  background-position: center left;
+  background-position: center center;
+  transform: scale(1.1);
 }
 .dancer {
   background-image:url(assets/dancer1.png);
-  width: 45%;
-  height: 44%;
+  width: 50%;
+  height: 49%;
   background-size: 80%;
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: top left;
+  transition: all ease 1s;
   /* border: solid 2px red; */
-  align-self: flex-end;
+  align-self: flex-start;
   /* margin-top:-8%; */
   /* background-color: #000000; */
   -webkit-filter: drop-shadow( 0 0 50px #797979);
@@ -101,17 +106,18 @@ h1 {
 }
 .dancer:hover {
   filter: drop-shadow( 0 0 50px #797979);
-  background-size: 90%;
-  background-position: center right;
+  background-position: center center;
+  transform: scale(1.1);
 }
 .paint {
   background-image:url(assets/paint1.png);
-  width: 45%;
-  height: 44%;
+  width: 50%;
+  height: 49%;
   background-size: 80%;
   background-repeat: no-repeat;
-  background-position: bottom left;
-  align-self: flex-end;
+  background-position: top right;
+  align-self: flex-start;
+  transition: all ease 1s;
   /* margin-top: 3%; */
   /* border: solid 2px red; */
   /* background-color: #000000; */
@@ -120,6 +126,6 @@ h1 {
 }
 .paint:hover {
   filter: drop-shadow( 0 0 50px #797979);
-  background-size: 90%;
-  background-position: center left;
+  background-position: center center;
+  transform: scale(1.1);
 }
