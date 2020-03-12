@@ -33,7 +33,15 @@ html {
     transform: translateY(70px);
   }
   100% {
-    transform: translateX(0);
+    transform: translateY(0);
+  }
+}
+@keyframes fadeInPaint {
+  0% {
+    transform: translateY(-70px);
+  }
+  100% {
+    transform: translateY(0);
   }
 }
 @keyframes fadeInText {
@@ -43,10 +51,30 @@ html {
   }
   100% {
     opacity:1;
-    transform: translateX(0);
+    transform: translateY(0);
   }
 }
 @keyframes fadeInArt {
+  0% {
+    opacity:0;
+    transform: translateX(70px);
+  }
+  100% {
+    opacity:1;
+    transform: translateX(0);
+  }
+}
+@keyframes fadeInDancer {
+  0% {
+    opacity:0;
+    transform: translateX(-70px);
+  }
+  100% {
+    opacity:1;
+    transform: translateX(0);
+  }
+}
+@keyframes fadeInActor {
   0% {
     opacity:0;
     transform: translateX(70px);
@@ -163,7 +191,7 @@ h1 {
 }
 .actor {
   /* animation-delay: 10s; */
-  animation: fadeIn ease-in 11s;
+  animation: fadeIn ease-in 11s, fadeInActor ease-in 10s ;
   background-image:url(assets/actor1.png);
   width: 49%;
   height: 49%;
@@ -186,7 +214,7 @@ h1 {
 }
 .dancer {
   /* animation-delay: 15s; */
-  animation: fadeIn ease-in 15s;
+  animation: fadeIn ease-in 15s, fadeInDancer ease-in 14s;
   background-image:url(assets/dancer1.png);
   width: 49%;
   height: 49%;
@@ -209,7 +237,7 @@ h1 {
   transform: scale(1.01);
 }
 .paint {
-  animation: fadeIn ease-in 8s;
+  animation: fadeInPaint ease-in 7s, fadeIn ease-in 8s;
   /* animation: fadeIn ease 13s; */
   background-image:url(assets/paint1.png);
   width: 49%;
