@@ -12,7 +12,7 @@ html {
   0% {
     opacity:0;
     filter: blur(5px);
-
+    /* transform: translateY(70px); */
   }
   50% {
     opacity: .5;
@@ -25,15 +25,35 @@ html {
   100% {
     opacity:1;
     filter: grayscale(100%);
+    /* transform: translateX(0); */
+  }
+}
+@keyframes fadeInMural {
+  0% {
+    transform: translateY(70px);
+  }
+  100% {
+    transform: translateX(0);
   }
 }
 @keyframes fadeInText {
   0% {
     opacity:0;
+    transform: translateY(70px);
   }
   100% {
     opacity:1;
-    
+    transform: translateX(0);
+  }
+}
+@keyframes fadeInArt {
+  0% {
+    opacity:0;
+    transform: translateX(70px);
+  }
+  100% {
+    opacity:1;
+    transform: translateX(0);
   }
 }
 @-moz-keyframes fadeIn {
@@ -85,7 +105,7 @@ Header {
 }
 h2 {
   line-height: 200%;
-  animation: fadeInText ease 30s;
+  animation: fadeInText ease 8s;
 }
 h1 {
   line-height: 5%;
@@ -96,7 +116,7 @@ h1 {
   right: 4%;
   top: 13%;
   z-index: +1;
-  animation: fadeInText ease 5s;
+  animation: fadeInArt ease 3s;
 }
 
 .container {
@@ -120,7 +140,7 @@ h1 {
 }
 .mural {
   /* animation-delay: 5s; */
-  animation: fadeIn ease-in 5s;
+  animation: fadeIn ease-in 5s, fadeInMural ease-in 4s;
   background-image:url(assets/urban1.png);
   width: 49%;
   height: 49%;
@@ -143,7 +163,7 @@ h1 {
 }
 .actor {
   /* animation-delay: 10s; */
-  animation: fadeIn ease-in 15s;
+  animation: fadeIn ease-in 11s;
   background-image:url(assets/actor1.png);
   width: 49%;
   height: 49%;
@@ -166,7 +186,7 @@ h1 {
 }
 .dancer {
   /* animation-delay: 15s; */
-  animation: fadeIn ease-in 20s;
+  animation: fadeIn ease-in 15s;
   background-image:url(assets/dancer1.png);
   width: 49%;
   height: 49%;
@@ -189,7 +209,7 @@ h1 {
   transform: scale(1.01);
 }
 .paint {
-  animation: fadeIn ease-in 10s;
+  animation: fadeIn ease-in 8s;
   /* animation: fadeIn ease 13s; */
   background-image:url(assets/paint1.png);
   width: 49%;
