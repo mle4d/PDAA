@@ -8,9 +8,56 @@ html {
   background-size: cover;
   background-position: center bottom;
 }
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+
+  }
+  100% {
+    opacity:1;
+    
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}
+}
 body {
   margin: 0;
 }
+
 Header {
   text-align: right;
   padding-right: 2%;
@@ -21,6 +68,7 @@ Header {
 }
 h2 {
   line-height: 200%;
+  animation: fadeIn ease 2s;
 }
 h1 {
   line-height: 5%;
@@ -31,8 +79,11 @@ h1 {
   right: 4%;
   top: 13%;
   z-index: +1;
+  animation: fadeIn ease 14s;
 }
+
 .container {
+  /* animation: fadeIn ease 2s; */
   max-width: 40%;
   height: 78vh;
   margin-top: -25%;
@@ -51,6 +102,7 @@ h1 {
   box-shadow: 10px 20px 8px rgba(0, 0, 0, 0.12), 20px 20px 8px rgba(0, 0, 0, 0.24);
 }
 .mural {
+  animation: fadeIn ease 10s;
   background-image:url(assets/urban1.png);
   width: 49%;
   height: 49%;
@@ -60,18 +112,19 @@ h1 {
   /* border: solid 2px red; */
   /* margin-top: -1%; */
   align-self: flex-end;
-  transition: all ease 1s;
+  transition: all ease 2s;
   /* background-color: #000000; */
   filter: grayscale(100%);
-  box-shadow: 0px 0px 8px #797979, 0px 0px 8px #797979;
+  /* box-shadow: 0px 0px 8px #797979, 0px 0px 8px #797979; */
 }
 .mural:hover {
   -webkit-filter: drop-shadow( 0 0 8px #797979);
   filter: drop-shadow( 0 0 8px #797979);
-  background-position: center center;
+  box-shadow: 1px 1px 10px #797979;
   transform: scale(1.01);
 }
 .actor {
+  animation: fadeIn ease 30s;
   background-image:url(assets/actor1.png);
   width: 49%;
   height: 49%;
@@ -80,40 +133,43 @@ h1 {
   background-position: center left;
   background-repeat: no-repeat;
   align-self: flex-end;
-  transition: all ease 1s;
+  transition: all ease 2s;
   /* margin-top:-17%; */
   /* background-color: #000000; */
   filter: grayscale(100%);
-  box-shadow: 0px 0px 8px #797979, 0px 0px 8px #797979;
+  /* box-shadow: 0px 0px 8px #797979, 0px 0px 8px #797979; */
 }
 .actor:hover {
   -webkit-filter: drop-shadow( 0 0 8px #797979);
   filter: drop-shadow( 0 0 8px #797979);
-  background-position: center center;
+  box-shadow: 1px 1px 10px #797979;
   transform: scale(1.01);
 }
 .dancer {
+  animation: fadeIn ease 35s;
   background-image:url(assets/dancer1.png);
   width: 49%;
   height: 49%;
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center right;
-  transition: all ease 1s;
+  transition: all ease 2s;
   /* border: solid 2px red; */
   align-self: flex-end;
   /* margin-top:-8%; */
   /* background-color: #000000; */
   filter: grayscale(100%);
-  box-shadow: 0px 0px 8px #797979, 0px 0px 8px #797979;
+  /* box-shadow: 0px 0px 8px #797979, 0px 0px 8px #797979; */
 }
 .dancer:hover {
   -webkit-filter: drop-shadow( 0 0 8px #797979);
   filter: drop-shadow( 0 0 8px #797979);
+  box-shadow: 1px 1px 10px #797979;
   background-position: center center;
   transform: scale(1.01);
 }
 .paint {
+  animation: fadeIn ease 20s;
   background-image:url(assets/paint1.png);
   width: 49%;
   height: 49%;
@@ -121,17 +177,15 @@ h1 {
   background-repeat: no-repeat;
   background-position: center center;
   align-self: flex-end;
-  transition: all ease 1s;
+  transition: all ease 2s;
   /* margin-top: 3%; */
   /* border: solid 2px red; */
   /* background-color: #000000; */
   filter: grayscale(100%);
-  box-shadow: 0px 0px 8px #797979, 0px 0px 8px #797979;
 }
 .paint:hover {
   -webkit-filter: drop-shadow( 0 0 8px #797979);
   filter: drop-shadow( 0 0 8px #797979);
-  background-position: center center;
+  box-shadow: 1px 1px 10px #797979;
   transform: scale(1.01);
- 
 }
