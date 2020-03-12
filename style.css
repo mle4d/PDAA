@@ -50,12 +50,12 @@ h1 {
 .mural {
   background-image:url(assets/urban1.png);
   width: 45%;
-  height: 40%;
-  background-size: 96%;
+  height: 45%;
+  background-size: 80%;
   background-repeat: no-repeat;
-  background-position: top right;
-  /* border: solid 2px red; */
-  margin-top: -1%;
+  background-position: bottom right;
+  border: solid 2px red;
+  /* margin-top: -1%; */
   align-self: flex-start;
   /* background-color: #000000; */
   -webkit-filter: drop-shadow( 0 0 50px #797979);
@@ -67,32 +67,32 @@ h1 {
   background-position: center left;
 }
 .actor {
-  background-image:url(assets/aq1.png);
-  width: 43%;
-  height: 60%;
-  background-size: 100%;
-  /* border: solid 2px red; */
-  background-position: bottom right;
+  background-image:url(assets/actor1.png);
+  width: 45%;
+  height: 45%;
+  background-size: 80%;
+  border: solid 2px red;
+  background-position: bottom left;
   background-repeat: no-repeat;
   align-self: flex-start;
-  margin-top:-17%;
+  /* margin-top:-17%; */
   /* background-color: #000000; */
   -webkit-filter: drop-shadow( 0 0 50px #797979);
   filter: grayscale(100%) drop-shadow( 0 0 50px #797979);
 }
 .actor:hover {
   filter: drop-shadow( 0 0 50px #797979);
-  background-size: 110%;
+  background-size: 100%;
   background-position: center left;
 }
 .dancer {
-  background-image:url(assets/dance1.png);
-  width: 30%;
-  height: 52%;
+  background-image:url(assets/dancer1.png);
+  width: 45%;
+  height: 45%;
   background-size: 80%;
   background-repeat: no-repeat;
-  background-position: right;
-  /* border: solid 2px red; */
+  background-position: bottom right;
+  border: solid 2px red;
   align-self: flex-end;
   /* margin-top:-8%; */
   /* background-color: #000000; */
@@ -106,14 +106,14 @@ h1 {
 }
 .paint {
   background-image:url(assets/paint1.png);
-  width: 58%;
-  height: 35%;
+  width: 45%;
+  height: 45%;
   background-size: 80%;
   background-repeat: no-repeat;
   background-position: bottom left;
-  align-self: baseline;
-  margin-top: 3%;
-  /* border: solid 2px red; */
+  align-self: flex-end;
+  /* margin-top: 3%; */
+  border: solid 2px red;
   /* background-color: #000000; */
   -webkit-filter: drop-shadow( 0 0 50px #797979);
   filter: grayscale(100%) drop-shadow( 0 0 50px #797979);
