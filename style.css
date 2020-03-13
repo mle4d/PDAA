@@ -366,6 +366,9 @@ h1 {
   align-self: flex-end;
   filter: grayscale(100%);
 }
+.dancer #aboutopen {
+  display: none;
+}
 .dancer:hover {
   -webkit-filter: grayscale(100%) drop-shadow( 0 0 8px #717171);
   filter: grayscale(100%) drop-shadow( 0 0 12px #717171);
@@ -393,6 +396,9 @@ h1 {
   background-repeat: no-repeat;
   background-position: center center;
   filter: none;
+}
+.about #aboutopen {
+  display: block;
 }
 .paint {
   animation: fadeInPaint ease-in 6s, fadeIn ease-in 7s;
