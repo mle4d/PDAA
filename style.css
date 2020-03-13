@@ -282,24 +282,27 @@ h1 {
   background-repeat: no-repeat;
   background-position: center center;
   align-self: flex-end;
-  transition: all ease 2s;
+  transition: all ease 1s;
   filter: grayscale(100%);
   
 }
 .mural:hover {
-  -webkit-filter: drop-shadow( 0 0 8px #797979);
-  filter: drop-shadow( 0 0 8px #797979);
-  box-shadow: 1px 1px 10px #797979;
+  -webkit-filter: grayscale(100%) drop-shadow( 0 0 8px #717171);
+  filter: grayscale(100%) drop-shadow( 0 0 12px #717171);
   transform: scale(1.01);
+  transition: all ease-in 1s;
+}
+.hidemural {
+  display: none;
 }
 #scholarship {
-  background-color: #454545;
+  background-color: #7b7b7b;
   color: transparent;
   text-shadow: 2px 2px 2px rgba(69,69,69,0.5);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
-  margin-top: 80%;
+  margin-top: 100%;
 }
 .actor {
   animation: fadeIn ease-in 9s, fadeInActor ease-in 8s ;
@@ -314,20 +317,24 @@ h1 {
   filter: grayscale(100%);
 }
 .actor:hover {
-  -webkit-filter: drop-shadow( 0 0 8px #797979);
-  filter: drop-shadow( 0 0 8px #797979);
-  box-shadow: 1px 1px 10px #797979;
+  -webkit-filter: grayscale(100%) drop-shadow( 0 0 8px #717171);
+  filter: grayscale(100%) drop-shadow( 0 0 12px #717171);
   transform: scale(1.01);
+  transition: all ease-in 1s;
+}
+.hideactor {
+  display: none;
 }
 #support {
-  background-color: #d3d3d3;
+  background-color: #7b7b7b;
   color: transparent;
   text-shadow: 2px 2px 3px rgba(69,69,69,0.5);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
-  margin-right: -50%;
-  /* transform: rotate(90deg); */
+  margin-top: 20%;
+  margin-right: -130%;
+  transform: rotate(90deg);
 }
 .dancer {
   animation: fadeIn ease-in 11s, fadeInDancer ease-in 10s;
@@ -342,20 +349,30 @@ h1 {
   filter: grayscale(100%);
 }
 .dancer:hover {
-  -webkit-filter: drop-shadow( 0 0 8px #797979);
-  filter: drop-shadow( 0 0 8px #797979);
-  box-shadow: 1px 1px 10px #797979;
-  background-position: center center;
+  -webkit-filter: grayscale(100%) drop-shadow( 0 0 8px #717171);
+  filter: grayscale(100%) drop-shadow( 0 0 12px #717171);
   transform: scale(1.01);
+  transition: all ease-in 1s;
+}
+.hidedancer {
+  display: none;
 }
 #about {
-  background-color: #d3d3d3;
+  background-color: #7b7b7b;
   color: transparent;
   text-shadow: 2px 2px 3px rgba(69,69,69,0.5);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
-  margin-right: -50%;
+  margin-left: -120%;
+  transform: rotate(-90deg);
+}
+.about {
+  background-image:url(assets/dancer2.png);
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 .paint {
   animation: fadeInPaint ease-in 6s, fadeIn ease-in 7s;
@@ -370,17 +387,31 @@ h1 {
   filter: grayscale(100%);
 }
 .paint:hover {
-  -webkit-filter: drop-shadow( 0 0 8px #797979);
-  filter: drop-shadow( 0 0 8px #797979);
-  box-shadow: 1px 1px 10px #797979;
+  -webkit-filter: grayscale(100%) drop-shadow( 0 0 8px #717171);
+  filter: grayscale(100%) drop-shadow( 0 0 12px #717171);
   transform: scale(1.01);
+  transition: all ease-in 1s;
+}
+.hidepaint {
+  display: none;
 }
 #calendar {
-  background-color: #d3d3d3;
+  background-color: #7b7b7b;
   color: transparent;
   text-shadow: 2px 2px 3px rgba(69,69,69,0.5);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
-  margin-right: -50%;
+  margin-top: -18%;
+}
+.calendar {
+  background-image:url(assets/paint2.png);
+  width: 70%;
+  height: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  filter: none;
+}
+#calendar::after {
+  margin-top: 0%;
 }
