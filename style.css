@@ -294,10 +294,11 @@ h1 {
 #scholarship {
   background-color: #454545;
   color: transparent;
-  text-shadow: 2px 2px 3px rgba(69,69,69,0.5);
+  text-shadow: 2px 2px 2px rgba(69,69,69,0.5);
   -webkit-background-clip: text;
-     -moz-background-clip: text;
-          background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  margin-top: 80%;
 }
 .actor {
   animation: fadeIn ease-in 9s, fadeInActor ease-in 8s ;
@@ -346,6 +347,15 @@ h1 {
   background-position: center center;
   transform: scale(1.01);
 }
+#about {
+  background-color: #d3d3d3;
+  color: transparent;
+  text-shadow: 2px 2px 3px rgba(69,69,69,0.5);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  margin-right: -50%;
+}
 .paint {
   animation: fadeInPaint ease-in 6s, fadeIn ease-in 7s;
   background-image:url(assets/paint1.png);
@@ -363,4 +373,13 @@ h1 {
   filter: drop-shadow( 0 0 8px #797979);
   box-shadow: 1px 1px 10px #797979;
   transform: scale(1.01);
+}
+#calendar {
+  background-color: #d3d3d3;
+  color: transparent;
+  text-shadow: 2px 2px 3px rgba(69,69,69,0.5);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  margin-right: -50%;
 }
