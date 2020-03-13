@@ -274,7 +274,7 @@ h1 {
   box-shadow: 10px 20px 8px rgba(0, 0, 0, 0.12), 20px 20px 8px rgba(0, 0, 0, 0.24);
 }
 .mural {
-  animation: fadeIn ease-in 5s, fadeInMural ease-in 4s;
+  animation: fadeIn ease-in 3s, fadeInMural ease-in 2s;
   background-image:url(assets/urban1.png);
   width: 49%;
   height: 49%;
@@ -294,6 +294,8 @@ h1 {
 }
 .hidemural {
   display: none;
+  animation: none;
+  transition: all ease 1s;
 }
 #scholarship {
   background-color: #7b7b7b;
@@ -314,7 +316,7 @@ h1 {
   filter: none;
 }
 .actor {
-  animation: fadeIn ease-in 9s, fadeInActor ease-in 8s ;
+  animation: fadeIn ease-in 7s, fadeInActor ease-in 6s ;
   background-image:url(assets/actor1.png);
   width: 49%;
   height: 49%;
@@ -333,6 +335,8 @@ h1 {
 }
 .hideactor {
   display: none;
+  animation: none;
+  transition: all ease 1s;
 }
 #support {
   background-color: #7b7b7b;
@@ -355,7 +359,7 @@ h1 {
   filter: none;
 }
 .dancer {
-  animation: fadeIn ease-in 11s, fadeInDancer ease-in 10s;
+  animation: fadeIn ease-in 9s, fadeInDancer ease-in 8s;
   background-image:url(assets/dancer1.png);
   width: 49%;
   height: 49%;
@@ -377,6 +381,8 @@ h1 {
 }
 .hidedancer {
   display: none;
+  animation: none;
+  transition: all ease 1s;
 }
 #about {
   background-color: #7b7b7b;
@@ -387,6 +393,7 @@ h1 {
   background-clip: text;
   margin-left: -120%;
   transform: rotate(-90deg);
+  transition: all ease 1ms;
 }
 .about {
   background-image:url(assets/dancer2.png);
@@ -401,7 +408,7 @@ h1 {
   display: block;
 }
 .paint {
-  animation: fadeInPaint ease-in 6s, fadeIn ease-in 7s;
+  animation: fadeInPaint ease-in 4s, fadeIn ease-in 5s;
   background-image:url(assets/paint1.png);
   width: 49%;
   height: 49%;
@@ -420,6 +427,8 @@ h1 {
 }
 .hidepaint {
   display: none;
+  animation: none;
+  transition: all ease 1s;
 }
 #calendar {
   background-color: #7b7b7b;
