@@ -146,7 +146,14 @@ h1 {
   z-index: +1;
   animation: fadeInArt ease 3s;
 }
-
+.smcontainer {
+  position: fixed;
+  right: 5%;
+  bottom: 5%;
+  border: 2px solid red;
+  height: 30%;
+  width: 30%;
+}
 .container {
   /* animation: fadeIn 10s forwards; */
   max-width: 40%;
