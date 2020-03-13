@@ -304,6 +304,15 @@ h1 {
   background-clip: text;
   margin-top: 100%;
 }
+.scholarship {
+  background-image:url(assets/urban2.png);
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: none;
+}
 .actor {
   animation: fadeIn ease-in 9s, fadeInActor ease-in 8s ;
   background-image:url(assets/actor1.png);
@@ -335,6 +344,15 @@ h1 {
   margin-top: 20%;
   margin-right: -130%;
   transform: rotate(90deg);
+}
+.support {
+  background-image:url(assets/actor2.png);
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  filter: none;
 }
 .dancer {
   animation: fadeIn ease-in 11s, fadeInDancer ease-in 10s;
@@ -370,9 +388,10 @@ h1 {
 .about {
   background-image:url(assets/dancer2.png);
   width: 100%;
-  height: 70%;
+  height: 100%;
   background-size: 100%;
   background-repeat: no-repeat;
+  background-position: center center;
   filter: none;
 }
 .paint {
