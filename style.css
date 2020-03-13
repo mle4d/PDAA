@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Muli&display=swap');
 html {
   box-sizing: border-box;
   /* background-image:url(assets/bg.png); */
@@ -135,7 +135,6 @@ Header {
   text-align: right;
   padding-right: 2%;
   margin-top: -2%;
-  font-family: 'Lora', serif;
   font-size: 3em;
 }
 
@@ -143,24 +142,25 @@ h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
   line-height: 200%;
-  animation: fadeInText ease 10s;
-  background-color: #242422;
+  animation: fadeInText ease 13s;
+  background-color: #242424;
   color: transparent;
   text-shadow: 2px 2px 3px rgba(69,69,69,0.5);
   -webkit-background-clip: text;
-     -moz-background-clip: text;
-          background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
 }
 h1 {
+  font-family: 'Muli', sans-serif;
   line-height: 5%;
   letter-spacing: 35px;
   font-size: 3.1em;
-  color: #8a8a8a;
+  color: #b6b6b6;
   position: fixed;
-  right: 1%;
+  right: 2%;
   top: 12%;
   z-index: +1;
-  animation: fadeInArt ease 4s;
+  animation: fadeInArt ease 2s;
   text-shadow: 2px 2px #4a4a4a, 3px 3px #4a4a4a, 4px 4px 1px #4a4a4a;
 }
 .smcontainer {
@@ -184,7 +184,7 @@ h1 {
 }
 .twitter:hover {
   box-shadow: 0px 0px 8px #1f1f1f;
-  transform: scale(1.01);
+  transform: scale(1.02);
   border-radius: 10px;
 }
 .instagram {
@@ -197,7 +197,7 @@ h1 {
 }
 .instagram:hover {
   box-shadow: 0px 0px 8px #1f1f1f;
-  transform: scale(1.01);
+  transform: scale(1.02);
   border-radius: 10px;
 }
 .facebook {
@@ -210,7 +210,7 @@ h1 {
 }
 .facebook:hover {
   box-shadow: 0px 0px 8px #1f1f1f;
-  transform: scale(1.01);
+  transform: scale(1.02);
   border-radius: 10px;
 }
 .email {
@@ -223,7 +223,7 @@ h1 {
 }
 .email:hover {
   box-shadow: 0px 0px 8px #1f1f1f;
-  transform: scale(1.01);
+  transform: scale(1.02);
   border-radius: 10px;
 }
 .phone {
@@ -236,7 +236,7 @@ h1 {
 }
 .phone:hover {
   box-shadow: 0px 0px 8px #1f1f1f;
-  transform: scale(1.01);
+  transform: scale(1.02);
   border-radius: 10px;
 }
 .address {
@@ -249,12 +249,12 @@ h1 {
 }
 .address:hover {
   box-shadow: 0px 0px 8px #1f1f1f;
-  transform: scale(1.01);
+  transform: scale(1.02);
   border-radius: 10px;
 }
 .container {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
+  font-family: 'Muli', sans-serif;
+  font-weight: 200;
   font-size: 2em;
   text-align: center;
   max-width: 40%;
@@ -265,7 +265,7 @@ h1 {
   transform: scale(0.98);
   transition: transform 0.5s;
   opacity: 1;
-  background-color: #242424;
+  color: #bababa;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -284,13 +284,11 @@ h1 {
   align-self: flex-end;
   transition: all ease 1s;
   filter: grayscale(100%);
-  
 }
 .mural:hover {
   -webkit-filter: grayscale(100%) drop-shadow( 0 0 8px #717171);
   filter: grayscale(100%) drop-shadow( 0 0 12px #717171);
   transform: scale(1.01);
-  transition: all ease-in 1s;
 }
 .hidemural {
   display: none;
@@ -298,13 +296,8 @@ h1 {
   transition: all ease 1s;
 }
 #scholarship {
-  background-color: #7b7b7b;
-  color: transparent;
-  text-shadow: 2px 2px 2px rgba(69,69,69,0.5);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  background-clip: text;
   margin-top: 100%;
+  filter: grayscale(0) drop-shadow();
 }
 .scholarship {
   background-image:url(assets/urban2.png);
@@ -331,7 +324,6 @@ h1 {
   -webkit-filter: grayscale(100%) drop-shadow( 0 0 8px #717171);
   filter: grayscale(100%) drop-shadow( 0 0 12px #717171);
   transform: scale(1.01);
-  transition: all ease-in 1s;
 }
 .hideactor {
   display: none;
@@ -339,12 +331,7 @@ h1 {
   transition: all ease 1s;
 }
 #support {
-  background-color: #7b7b7b;
-  color: transparent;
-  text-shadow: 2px 2px 3px rgba(69,69,69,0.5);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  background-clip: text;
+  filter: grayscale(0) drop-shadow();
   margin-top: 20%;
   margin-right: -130%;
   transform: rotate(90deg);
@@ -377,7 +364,6 @@ h1 {
   -webkit-filter: grayscale(100%) drop-shadow( 0 0 8px #717171);
   filter: grayscale(100%) drop-shadow( 0 0 12px #717171);
   transform: scale(1.01);
-  transition: all ease-in 1s;
 }
 .hidedancer {
   display: none;
@@ -385,15 +371,9 @@ h1 {
   transition: all ease 1s;
 }
 #about {
-  background-color: #7b7b7b;
-  color: transparent;
-  text-shadow: 2px 2px 3px rgba(69,69,69,0.5);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  background-clip: text;
+  filter: grayscale(0) drop-shadow();
   margin-left: -120%;
   transform: rotate(-90deg);
-  transition: all ease 1ms;
 }
 .about {
   background-image:url(assets/dancer2.png);
@@ -403,9 +383,16 @@ h1 {
   background-repeat: no-repeat;
   background-position: center center;
   filter: none;
+  color: #454545;
+  font-size: .8em;
 }
 .about #aboutopen {
   display: block;
+}
+.about:hover {
+  -webkit-filter: grayscale(0%) drop-shadow( 0 0 0px);
+  filter: grayscale(0%) drop-shadow( 0 0 0px);
+  transform: scale(1);
 }
 .paint {
   animation: fadeInPaint ease-in 4s, fadeIn ease-in 5s;
@@ -423,7 +410,6 @@ h1 {
   -webkit-filter: grayscale(100%) drop-shadow( 0 0 8px #717171);
   filter: grayscale(100%) drop-shadow( 0 0 12px #717171);
   transform: scale(1.01);
-  transition: all ease-in 1s;
 }
 .hidepaint {
   display: none;
@@ -431,12 +417,7 @@ h1 {
   transition: all ease 1s;
 }
 #calendar {
-  background-color: #7b7b7b;
-  color: transparent;
-  text-shadow: 2px 2px 3px rgba(69,69,69,0.5);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  background-clip: text;
+  filter: grayscale(0) drop-shadow();
   margin-top: -18%;
 }
 .calendar {
