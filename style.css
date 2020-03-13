@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat&display=swap');
 html {
   box-sizing: border-box;
   /* background-image:url(assets/bg.png); */
@@ -135,11 +135,13 @@ Header {
   text-align: right;
   padding-right: 2%;
   margin-top: -2%;
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Lora', serif;
   font-size: 3em;
 }
 
 h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
   line-height: 200%;
   animation: fadeInText ease 10s;
   background-color: #242422;
@@ -151,20 +153,20 @@ h2 {
 }
 h1 {
   line-height: 5%;
-  letter-spacing: 20px;
+  letter-spacing: 35px;
   font-size: 3.1em;
-  color: #d3d3d3;
+  color: #8a8a8a;
   position: fixed;
-  right: 4%;
+  right: 1%;
   top: 12%;
   z-index: +1;
   animation: fadeInArt ease 4s;
-  text-shadow: 2px 2px #4a4a4a, 3px 3px #4a4a4a, 4px 4px 4px #4a4a4a;
+  text-shadow: 2px 2px #4a4a4a, 3px 3px #4a4a4a, 4px 4px 1px #4a4a4a;
 }
 .smcontainer {
   position: fixed;
   right: 10%;
-  bottom: 5%;
+  bottom: 10%;
   height: 25%;
   width: 18%;
   display: flex;
@@ -251,6 +253,9 @@ h1 {
   border-radius: 10px;
 }
 .container {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  text-align: center;
   max-width: 40%;
   height: 78vh;
   margin-top: -25%;
@@ -278,12 +283,21 @@ h1 {
   align-self: flex-end;
   transition: all ease 2s;
   filter: grayscale(100%);
+  
 }
 .mural:hover {
   -webkit-filter: drop-shadow( 0 0 8px #797979);
   filter: drop-shadow( 0 0 8px #797979);
   box-shadow: 1px 1px 10px #797979;
   transform: scale(1.01);
+}
+#scholarship {
+  background-color: #454545;
+  color: transparent;
+  text-shadow: 2px 2px 3px rgba(69,69,69,0.5);
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
 }
 .actor {
   animation: fadeIn ease-in 9s, fadeInActor ease-in 8s ;
@@ -302,6 +316,16 @@ h1 {
   filter: drop-shadow( 0 0 8px #797979);
   box-shadow: 1px 1px 10px #797979;
   transform: scale(1.01);
+}
+#support {
+  background-color: #d3d3d3;
+  color: transparent;
+  text-shadow: 2px 2px 3px rgba(69,69,69,0.5);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  margin-right: -50%;
+  /* transform: rotate(90deg); */
 }
 .dancer {
   animation: fadeIn ease-in 11s, fadeInDancer ease-in 10s;
