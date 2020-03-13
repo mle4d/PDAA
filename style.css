@@ -129,22 +129,30 @@ Header {
   margin-top: -2%;
   font-family: 'Helvetica Neue', sans-serif;
   font-size: 3em;
-  color: #454545;
+  /* color: #454545; */
 }
+
 h2 {
   line-height: 200%;
   animation: fadeInText ease 8s;
+  background-color: #242422;
+  color: transparent;
+  text-shadow: 2px 2px 3px rgba(69,69,69,0.5);
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
 }
 h1 {
   line-height: 5%;
   letter-spacing: 20px;
-  font-size: 3em;
+  font-size: 3.1em;
   color: #d3d3d3;
   position: fixed;
   right: 4%;
-  top: 13%;
+  top: 12%;
   z-index: +1;
   animation: fadeInArt ease 3s;
+  text-shadow: 2px 2px #4a4a4a, 3px 3px #4a4a4a, 4px 4px 4px #4a4a4a;
 }
 .smcontainer {
   position: fixed;
