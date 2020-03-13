@@ -148,62 +148,93 @@ h1 {
 }
 .smcontainer {
   position: fixed;
-  right: 5%;
+  right: 10%;
   bottom: 5%;
   /* border: 2px solid red; */
-  height: 30%;
-  width: 30%;
+  height: 25%;
+  width: 18%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 .twitter {
   background-image: url(assets/twitter.png);
   background-repeat: no-repeat;
-  background-size: 30%;
+  background-size: 100%;
   /* border: solid 1px white; */
-  width: 49%;
-  height: 33%;
+  width: 30%;
+  height: 45%;
+}
+.twitter:hover {
+  box-shadow: 0px 0px 8px #1f1f1f;
+  transform: scale(1.01);
+  border-radius: 10px;
 }
 .instagram {
   background-image: url(assets/ig.png);
   background-repeat: no-repeat;
-  background-size: 30%;
+  background-size: 100%;
   /* border: solid 1px white; */
-  width: 49%;
-  height: 33%;
+  width: 30%;
+  height: 45%;
+}
+.instagram:hover {
+  box-shadow: 0px 0px 8px #1f1f1f;
+  transform: scale(1.01);
+  border-radius: 10px;
 }
 .facebook {
   background-image: url(assets/facebook.png);
   background-repeat: no-repeat;
-  background-size: 30%;
+  background-size: 100%;
   /* border: solid 1px white; */
-  width: 49%;
-  height: 33%;
+  width: 30%;
+  height: 45%;
+}
+.facebook:hover {
+  box-shadow: 0px 0px 8px #1f1f1f;
+  transform: scale(1.01);
+  border-radius: 10px;
 }
 .email {
   background-image: url(assets/email.png);
   background-repeat: no-repeat;
-  background-size: 30%;
+  background-size: 100%;
   /* border: solid 1px white; */
-  width: 49%;
-  height: 33%;
+  width: 30%;
+  height: 45%;
+}
+.email:hover {
+  box-shadow: 0px 0px 8px #1f1f1f;
+  transform: scale(1.01);
+  border-radius: 10px;
 }
 .phone {
   background-image: url(assets/phone.png);
   background-repeat: no-repeat;
-  background-size: 30%;
+  background-size: 100%;
   /* border: solid 1px white; */
-  width: 49%;
-  height: 33%;
+  width: 30%;
+  height: 45%;
+}
+.phone:hover {
+  box-shadow: 0px 0px 8px #1f1f1f;
+  transform: scale(1.01);
+  border-radius: 10px;
 }
 .address {
   background-image: url(assets/address.png);
   background-repeat: no-repeat;
-  background-size: 30%;
+  background-size: 100%;
   /* border: solid 1px white; */
-  width: 49%;
-  height: 33%;
+  width: 30%;
+  height: 45%;
+}
+.address:hover {
+  box-shadow: 0px 0px 8px #1f1f1f;
+  transform: scale(1.01);
+  border-radius: 10px;
 }
 .container {
   /* animation: fadeIn 10s forwards; */
@@ -272,7 +303,7 @@ h1 {
 }
 .dancer {
   /* animation-delay: 15s; */
-  animation: fadeIn ease-in 15s, fadeInDancer ease-in 14s;
+  animation: fadeIn ease-in 13s, fadeInDancer ease-in 13s;
   background-image:url(assets/dancer1.png);
   width: 49%;
   height: 49%;
