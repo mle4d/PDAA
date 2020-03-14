@@ -179,42 +179,6 @@
   }
 }
 
-@keyframes fadeInArt {
-  0% {
-    opacity:0;
-  }
-  10% {
-    opacity:0;
-  }
-  20% {
-    opacity:0;
-  }
-  30% {
-    opacity:0;
-  }
-  40% {
-    opacity:0;
-  }
-  50% {
-    opacity:0;
-  }
-  60% {
-    opacity:.2;
-  }
-  70% {
-    opacity:.4;
-  }
-  80% {
-    opacity:.6;
-  }
-  90% {
-    opacity:.8;
-  }
-  100% {
-    opacity:1;
-    transform: translateX(0);
-  }
-}
 @keyframes fadeInDancer {
   0% {
     opacity:0;
@@ -253,5 +217,41 @@ transform: translateY(-70px);
 100% {
 opacity:1;
 transform: translateY(0);
+  }
+}
+@keyframes fadeInArt {
+  0% {
+    opacity:0;
+  }
+  10% {
+    opacity:0;
+  }
+  20% {
+    opacity:0;
+  }
+  30% {
+    opacity:0;
+  }
+  40% {
+    opacity:0;
+  }
+  50% {
+    opacity:0;
+  }
+  60% {
+    opacity:.2;
+  }
+  70% {
+    opacity:.4;
+  }
+  80% {
+    opacity:.6;
+  }
+  90% {
+    opacity:.8;
+  }
+  100% {
+    opacity:1;
+    transform: translateX(0);
   }
 }
