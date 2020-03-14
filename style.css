@@ -47,7 +47,15 @@ html {
 @keyframes fadeInText {
   0% {
     opacity:0;
-    transform: translateY(70px);
+  }
+  100% {
+    opacity:1;
+  }
+}
+@keyframes fadeInSmall {
+  0% {
+    opacity:0;
+    transform: translateY(-70px);
   }
   100% {
     opacity:1;
@@ -57,7 +65,33 @@ html {
 @keyframes fadeInArt {
   0% {
     opacity:0;
-    transform: translateX(70px);
+  }
+  10% {
+    opacity:0;
+  }
+  20% {
+    opacity:0;
+  }
+  30% {
+    opacity:0;
+  }
+  40% {
+    opacity:0;
+  }
+  50% {
+    opacity:0;
+  }
+  60% {
+    opacity:.2;
+  }
+  70% {
+    opacity:.4;
+  }
+  80% {
+    opacity:.6;
+  }
+  90% {
+    opacity:.8;
   }
   100% {
     opacity:1;
@@ -146,22 +180,28 @@ h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
   line-height: 220%;
-  animation: fadeInText ease 7s;
   color: #454545;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
+}
+small {
+  animation: fadeInSmall ease 5s;
+  color: #f7867e;
+}
+u {
+  text-decoration-color: #f7867e;
 }
 h1 {
   font-family: 'Muli', sans-serif;
   font-weight: 100;
   line-height: 5%;
-  letter-spacing: 32px;
+  letter-spacing: 30px;
   font-size: 3.9em;
   color: #f0f0f0;
   position: fixed;
-  right: 2.6%;
+  right: 3%;
   top: 9%;
   z-index: -1;
-  animation: fadeInArt ease 2s;
+  animation: fadeInArt ease-in 9s;
   text-shadow: 2px 2px #f7867e, 3px 3px #f7867e, 4px 4px 1px #f7867e;
 }
 .smcontainer {
@@ -176,7 +216,7 @@ h1 {
   justify-content: space-evenly;
 }
 .twitter {
-  animation: fadeInIcons ease-in 3s;
+  animation: fadeInIcons ease-in 1s;
   background-image: url(assets/twitter.png);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -189,7 +229,7 @@ h1 {
   border-radius: 10px;
 }
 .instagram {
-  animation: fadeInIcons ease-in 4s;
+  animation: fadeInIcons ease-in 2s;
   background-image: url(assets/ig.png);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -202,7 +242,7 @@ h1 {
   border-radius: 10px;
 }
 .facebook {
-  animation: fadeInIcons ease-in 5s;
+  animation: fadeInIcons ease-in 3s;
   background-image: url(assets/facebook.png);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -215,7 +255,7 @@ h1 {
   border-radius: 10px;
 }
 .email {
-  animation: fadeInIcons ease-in 6s;
+  animation: fadeInIcons ease-in 3s;
   background-image: url(assets/email.png);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -228,7 +268,7 @@ h1 {
   border-radius: 10px;
 }
 .phone {
-  animation: fadeInIcons ease-in 7s;
+  animation: fadeInIcons ease-in 2s;
   background-image: url(assets/phone.png);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -241,7 +281,7 @@ h1 {
   border-radius: 10px;
 }
 .address {
-  animation: fadeInIcons ease-in 8s;
+  animation: fadeInIcons ease-in 1s;
   background-image: url(assets/address.png);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -312,7 +352,7 @@ h1 {
   transition: all ease 1s;
 }
 .actor {
-  animation: fadeIn ease-in 7s, fadeInActor ease-in 6s ;
+  animation: fadeIn ease-in 5s, fadeInActor ease-in 4s ;
   background-image:url(assets/actor1.png);
   width: 49%;
   height: 49%;
@@ -350,7 +390,7 @@ h1 {
   transition: all ease 1s;
 }
 .dancer {
-  animation: fadeIn ease-in 9s, fadeInDancer ease-in 8s;
+  animation: fadeIn ease-in 6s, fadeInDancer ease-in 5s;
   background-image:url(assets/dancer1.png);
   width: 49%;
   height: 49%;
@@ -418,7 +458,7 @@ h1 {
   transform: scale(1);
 }
 .paint {
-  animation: fadeInPaint ease-in 4s, fadeIn ease-in 5s;
+  animation: fadeInPaint ease-in 3s, fadeIn ease-in 4s;
   background-image:url(assets/paint1.png);
   width: 49%;
   height: 49%;
