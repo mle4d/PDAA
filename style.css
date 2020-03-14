@@ -330,7 +330,6 @@ h1 {
 .mural:hover {
   -webkit-filter: grayscale(100%) drop-shadow( 0 0 8px #717171);
   filter: grayscale(100%) drop-shadow( 0 0 12px #717171);
-  transform: scale(1.01);
 }
 .hidemural {
   display: none;
@@ -366,7 +365,6 @@ h1 {
 .actor:hover {
   -webkit-filter: grayscale(100%) drop-shadow( 0 0 8px #717171);
   filter: grayscale(100%) drop-shadow( 0 0 12px #717171);
-  transform: scale(1.01);
 }
 .hideactor {
   display: none;
@@ -374,10 +372,13 @@ h1 {
   transition: all ease 1s;
 }
 #support {
-  filter: grayscale(0) drop-shadow();
+  filter: grayscale(0);
   margin-top: 20%;
   margin-right: -130%;
   transform: rotate(90deg);
+}
+#support:hover {
+  color: #f7867e;
 }
 .support {
   background-image:url(assets/actor2.png);
@@ -388,6 +389,9 @@ h1 {
   background-position: center center;
   filter: none;
   transition: all ease 1s;
+}
+.support #support::after {
+  content: " ⓧ";
 }
 .dancer {
   animation: fadeIn ease-in 6s, fadeInDancer ease-in 5s;
@@ -407,7 +411,6 @@ h1 {
 .dancer:hover {
   -webkit-filter: grayscale(100%) drop-shadow( 0 0 8px #717171);
   filter: grayscale(100%) drop-shadow( 0 0 12px #717171);
-  transform: scale(1.01);
 }
 .hidedancer {
   display: none;
@@ -475,7 +478,6 @@ h1 {
 .paint:hover {
   -webkit-filter: grayscale(100%) drop-shadow( 0 0 8px #717171);
   filter: grayscale(100%) drop-shadow( 0 0 12px #717171);
-  transform: scale(1.01);
 }
 .hidepaint {
   display: none;
@@ -508,28 +510,20 @@ h1 {
   left: 10%;
   bottom: 1%;
   overflow: scroll;
-  animation: fadeInText ease 7s;
   transition: all ease-in 1s;
 }
 .calendar #calendar::after {
   content: " ⓧ";
 }
-iframe {
-  opacity: .9;
-}
 iframe:hover {
   -webkit-filter: grayscale(0%) drop-shadow( 0 0 0px);
   filter: grayscale(0%) drop-shadow( 0 0 0px);
-  transform: scale(1);
-  opacity: 1;
 }
 .calendar:hover {
   -webkit-filter: grayscale(0%) drop-shadow( 0 0 0px);
   filter: grayscale(0%) drop-shadow( 0 0 0px);
-  transform: scale(1);
 }
 .calendar #calendarOpen:hover {
   -webkit-filter: grayscale(0%) drop-shadow( 0 0 0px);
   filter: grayscale(0%) drop-shadow( 0 0 0px);
-  transform: scale(1);
 }
