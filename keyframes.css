@@ -228,6 +228,46 @@
     transform: translateX(0);
   }
 }
+@-moz-keyframes fadeInActor {
+  0% {
+    opacity:0;
+    transform: translateX(70px);
+  }
+  100% {
+    opacity:1;
+    transform: translateX(0);
+  }
+}
+@-webkit-keyframes fadeInActor {
+  0% {
+    opacity:0;
+    transform: translateX(70px);
+  }
+  100% {
+    opacity:1;
+    transform: translateX(0);
+  }
+}
+@-o-keyframes fadeInActor {
+  0% {
+    opacity:0;
+    transform: translateX(70px);
+  }
+  100% {
+    opacity:1;
+    transform: translateX(0);
+  }
+}
+@-ms-keyframes fadeInActor {
+  0% {
+    opacity:0;
+    transform: translateX(70px);
+  }
+  100% {
+    opacity:1;
+    transform: translateX(0);
+  }
+}
 @keyframes fadeInActor {
   0% {
     opacity:0;
