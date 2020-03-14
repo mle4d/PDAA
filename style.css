@@ -195,10 +195,10 @@ h1 {
   font-weight: 100;
   line-height: 5%;
   letter-spacing: 30px;
-  font-size: 3.9em;
+  font-size: 4em;
   color: #f0f0f0;
   position: fixed;
-  right: 2.8%;
+  right: 4.3%;
   top: 9%;
   z-index: -1;
   animation: fadeInArt ease-in 9s;
@@ -342,6 +342,9 @@ h1 {
 }
 #scholarship:hover {
   color: #f7867e;
+}
+.mural #openScholarship {
+  display: none;
 }
 .scholarship {
   background-image:url(assets/urban2.png);
