@@ -206,7 +206,7 @@ h1 {
 }
 .smcontainer {
   position: fixed;
-  right: 10%;
+  right: 13%;
   bottom: 10%;
   height: 25%;
   width: 18%;
@@ -377,12 +377,10 @@ h1 {
 .scholarship:hover {
   -webkit-filter: grayscale(0%) drop-shadow( 0 0 0px);
   filter: grayscale(0%) drop-shadow( 0 0 0px);
-  transform: scale(1);
 }
 .scholarship #openScholarship:hover {
   -webkit-filter: grayscale(0%) drop-shadow( 0 0 0px);
   filter: grayscale(0%) drop-shadow( 0 0 0px);
-  transform: scale(1);
 }
 .actor {
   animation: fadeIn ease-in 5s, fadeInActor ease-in 4s ;
@@ -451,12 +449,10 @@ h1 {
 .support:hover {
   -webkit-filter: grayscale(0%) drop-shadow( 0 0 0px);
   filter: grayscale(0%) drop-shadow( 0 0 0px);
-  transform: scale(1);
 }
 .support #openSupport:hover {
   -webkit-filter: grayscale(0%) drop-shadow( 0 0 0px);
   filter: grayscale(0%) drop-shadow( 0 0 0px);
-  transform: scale(1);
 }
 .dancer {
   animation: fadeIn ease-in 6s, fadeInDancer ease-in 5s;
