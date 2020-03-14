@@ -492,3 +492,37 @@ h1 {
   filter: none;
   transition: all ease 1s;
 }
+.paint #calendarOpen {
+  display: none;
+}
+.calendar #calendarOpen {
+  display: block;
+  margin-bottom: 3%;
+  height: 50%;
+  width: 80%;
+  position: fixed;
+  left: 10%;
+  bottom: 1%;
+  overflow: scroll;
+  animation: fadeInText ease 7s;
+  transition: all ease-in 1s;
+}
+iframe {
+  opacity: .9;
+}
+iframe:hover {
+  -webkit-filter: grayscale(0%) drop-shadow( 0 0 0px);
+  filter: grayscale(0%) drop-shadow( 0 0 0px);
+  transform: scale(1);
+  opacity: 1;
+}
+.calendar:hover {
+  -webkit-filter: grayscale(0%) drop-shadow( 0 0 0px);
+  filter: grayscale(0%) drop-shadow( 0 0 0px);
+  transform: scale(1);
+}
+.calendar #calendarOpen:hover {
+  -webkit-filter: grayscale(0%) drop-shadow( 0 0 0px);
+  filter: grayscale(0%) drop-shadow( 0 0 0px);
+  transform: scale(1);
+}
