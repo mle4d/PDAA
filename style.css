@@ -445,3 +445,35 @@ iframe:hover {
   -webkit-filter: grayscale(0%) drop-shadow( 0 0 0px);
   filter: grayscale(0%) drop-shadow( 0 0 0px);
 }
+@media (max-width: 700px) {
+  Header {
+    text-align: center;
+    position: fixed;
+    top: -3%;
+    font-size: 6vw;
+  }
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    line-height: 180%;
+    color: #454545;
+    letter-spacing: 2px;
+  }
+  h1 {
+    font-family: 'Muli', sans-serif;
+    font-weight: 100;
+    line-height: 5%;
+    letter-spacing: 30px;
+    font-size: 2em;
+    color: #f0f0f0;
+    position: fixed;
+    right: 4.3%;
+    top: 6%;
+    z-index: -1;
+    animation: fadeInArt ease-in 9s;
+    text-shadow: 2px 2px #f7867e, 3px 3px #f7867e, 4px 4px 1px #f7867e;
+  }
+  .container {
+    display: none;
+  }
+}
