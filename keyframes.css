@@ -278,6 +278,46 @@
     transform: translateX(0);
   }
 }
+@-moz-keyframes fadeInIcons {
+  0% {
+    opacity:0;
+    transform: scale(.1);
+  }
+  100% {
+    opacity:1;
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes fadeInIcons {
+  0% {
+    opacity:0;
+    transform: scale(.1);
+  }
+  100% {
+    opacity:1;
+    transform: scale(1);
+  }
+}
+@-o-keyframes fadeInIcons {
+  0% {
+    opacity:0;
+    transform: scale(.1);
+  }
+  100% {
+    opacity:1;
+    transform: scale(1);
+  }
+}
+@-ms-keyframes fadeInIcons {
+  0% {
+    opacity:0;
+    transform: scale(.1);
+  }
+  100% {
+    opacity:1;
+    transform: scale(1);
+  }
+}
 @keyframes fadeInIcons {
   0% {
     opacity:0;
