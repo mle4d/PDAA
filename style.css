@@ -450,6 +450,7 @@ iframe:hover {
     background-size: 40%;
     background-position: -30% 0% fixed;
     height: 100vh;
+    background-repeat: repeat-y;
   }
   Header {
     text-align: center;
@@ -469,11 +470,11 @@ iframe:hover {
     font-weight: 100;
     line-height: 5%;
     letter-spacing: 30px;
-    font-size: 2em;
+    font-size: 5vh;
     color: #f0f0f0;
     position: fixed;
     right: 4.3%;
-    top: 6%;
+    top: 7%;
     z-index: -1;
     animation: fadeInArt ease-in 9s;
     text-shadow: 2px 2px #f7867e, 3px 3px #f7867e, 4px 4px 1px #f7867e;
