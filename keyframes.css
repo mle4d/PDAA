@@ -92,6 +92,41 @@
     filter: grayscale(100%);
   }
 }
+@-moz-keyframes fadeInMural {
+  0% {
+    transform: translateY(70px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes fadeInMural {
+  0% {
+    transform: translateY(70px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@-o-keyframes fadeInMural {
+  0% {
+    transform: translateY(70px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@-ms-keyframes fadeInMural {
+  0% {
+    transform: translateY(70px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 @keyframes fadeInMural {
   0% {
     transform: translateY(70px);
