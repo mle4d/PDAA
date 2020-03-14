@@ -447,6 +447,9 @@ h1 {
   animation: fadeInText ease 7s;
   transition: all ease-in 1s;
 }
+.about #about::after {
+  content: " ⓧ";
+}
 .about:hover {
   -webkit-filter: grayscale(0%) drop-shadow( 0 0 0px);
   filter: grayscale(0%) drop-shadow( 0 0 0px);
@@ -483,6 +486,7 @@ h1 {
   filter: grayscale(0) drop-shadow();
   margin-top: -18%;
 }
+
 .calendar {
   background-image:url(assets/paint2.png);
   width: 70%;
@@ -506,6 +510,9 @@ h1 {
   overflow: scroll;
   animation: fadeInText ease 7s;
   transition: all ease-in 1s;
+}
+.calendar #calendar::after {
+  content: " ⓧ";
 }
 iframe {
   opacity: .9;
