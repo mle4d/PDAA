@@ -135,6 +135,41 @@
     transform: translateY(0);
   }
 }
+@-moz-keyframes fadeInPaint {
+  0% {
+    transform: translateY(-70px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes fadeInPaint {
+  0% {
+    transform: translateY(-70px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@-o-keyframes fadeInPaint {
+  0% {
+    transform: translateY(-70px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@-ms-keyframes fadeInPaint {
+  0% {
+    transform: translateY(-70px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 @keyframes fadeInPaint {
   0% {
     transform: translateY(-70px);
