@@ -450,7 +450,6 @@ iframe:hover {
     background-size: 40%;
     background-position: -30% 0% fixed;
     height: 100vh;
-    background-repeat: repeat-y;
   }
   Header {
     text-align: center;
