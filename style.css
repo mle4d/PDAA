@@ -506,8 +506,8 @@ transform: rotate(0deg);
   }
   .about #about {
     position: fixed;
-    top: 20%;
-    left: 0%;
+    top: 0%;
+    left: 130%;
     transform: rotate(0deg);
   }
     .support #support {
