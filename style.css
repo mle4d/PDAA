@@ -214,9 +214,9 @@ h1 {
   font-weight: 100;
   text-align: justify;
   align-content: center;
- padding: 5%;
+  padding: 5%;
   height: 25%;
-  width: 85%;
+  max-width: 85%;
   position: fixed;
   bottom: -3%;
   overflow: scroll;
