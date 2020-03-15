@@ -176,8 +176,7 @@ h1 {
   filter: grayscale(100%);
 }
 .mural:hover {
-  -webkit-filter: grayscale(100%) drop-shadow( 0 0 8px #717171);
-  filter: grayscale(100%) drop-shadow( 0 0 12px #717171);
+  cursor: pointer;
 }
 .hidemural {
   display: none;
@@ -226,14 +225,7 @@ h1 {
 .scholarship #scholarship::after {
   content: " ⓧ";
 }
-.scholarship:hover {
-  -webkit-filter: grayscale(0%) drop-shadow( 0 0 0px);
-  filter: grayscale(0%) drop-shadow( 0 0 0px);
-}
-.scholarship #openScholarship:hover {
-  -webkit-filter: grayscale(0%) drop-shadow( 0 0 0px);
-  filter: grayscale(0%) drop-shadow( 0 0 0px);
-}
+
 .actor {
   animation: fadeIn ease-in 5s, fadeInActor ease-in 4s ;
   background-image:url(assets/actor1.png);
@@ -247,8 +239,7 @@ h1 {
   filter: grayscale(100%);
 }
 .actor:hover {
-  -webkit-filter: grayscale(100%) drop-shadow( 0 0 8px #717171);
-  filter: grayscale(100%) drop-shadow( 0 0 12px #717171);
+  cursor: pointer;
 }
 .hideactor {
   display: none;
@@ -304,14 +295,7 @@ top: -20%;
 left: 10%;
 transform: rotate(0deg);
 }
-.support:hover {
-  -webkit-filter: grayscale(0%) drop-shadow( 0 0 0px);
-  filter: grayscale(0%) drop-shadow( 0 0 0px);
-}
-.support #openSupport:hover {
-  -webkit-filter: grayscale(0%) drop-shadow( 0 0 0px);
-  filter: grayscale(0%) drop-shadow( 0 0 0px);
-}
+
 .dancer {
   animation: fadeIn ease-in 6s, fadeInDancer ease-in 5s;
   background-image:url(assets/dancer1.png);
@@ -328,8 +312,7 @@ transform: rotate(0deg);
   display: none;
 }
 .dancer:hover {
-  -webkit-filter: grayscale(100%) drop-shadow( 0 0 8px #717171);
-  filter: grayscale(100%) drop-shadow( 0 0 12px #717171);
+  cursor: pointer;
 }
 .hidedancer {
   display: none;
@@ -372,25 +355,11 @@ transform: rotate(0deg);
 .about #about::after {
   content: " ⓧ";
 }
-.about #about {
-  position: fixed;
-  top: -5%;
-  left: 130%;
-  transform: rotate(0deg);
-  }
-.about:hover {
-  -webkit-filter: grayscale(0%) drop-shadow( 0 0 0px);
-  filter: grayscale(0%) drop-shadow( 0 0 0px);
-  transform: scale(1);
-}
+
 #about:hover {
   color: #f7867e;
 }
-.about #aboutopen:hover {
-  -webkit-filter: grayscale(0%) drop-shadow( 0 0 0px);
-  filter: grayscale(0%) drop-shadow( 0 0 0px);
-  transform: scale(1);
-}
+
 .paint {
   animation: fadeInPaint ease-in 3s, fadeIn ease-in 4s;
   background-image:url(assets/paint1.png);
@@ -404,8 +373,7 @@ transform: rotate(0deg);
   filter: grayscale(100%);
 }
 .paint:hover {
-  -webkit-filter: grayscale(100%) drop-shadow( 0 0 8px #717171);
-  filter: grayscale(100%) drop-shadow( 0 0 12px #717171);
+  cursor: pointer;
 }
 .hidepaint {
   display: none;
@@ -433,10 +401,10 @@ transform: rotate(0deg);
   display: block;
   margin-bottom: 3%;
   height: 50%;
-  width: 80%;
+  width: 100%;
   position: fixed;
-  left: 10%;
-  bottom: 1%;
+  left: 0%;
+  bottom: 0%;
   overflow: scroll;
   transition: all ease-in 1s;
 }
@@ -447,18 +415,6 @@ transform: rotate(0deg);
   content: " ⓧ";
 }
 
-iframe:hover {
-  -webkit-filter: grayscale(0%) drop-shadow( 0 0 0px);
-  filter: grayscale(0%) drop-shadow( 0 0 0px);
-}
-.calendar:hover {
-  -webkit-filter: grayscale(0%) drop-shadow( 0 0 0px);
-  filter: grayscale(0%) drop-shadow( 0 0 0px);
-}
-.calendar #calendarOpen:hover {
-  -webkit-filter: grayscale(0%) drop-shadow( 0 0 0px);
-  filter: grayscale(0%) drop-shadow( 0 0 0px);
-}
 @media (max-width: 700px) {
   html {
     background-size: 40%;
@@ -548,7 +504,7 @@ iframe:hover {
     margin-top: 5%;
     margin-left: 10%;
   }
-  .calendar #calendar {
+  .about #about {
     position: fixed;
     top: 20%;
     left: 0%;
