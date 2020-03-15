@@ -221,7 +221,6 @@ h1 {
   position: fixed;
   bottom: -3%;
   overflow: scroll;
-  /* animation: fadeInText ease 7s; */
   transition: all ease-in 1s;
 }
 .scholarship #scholarship::after {
@@ -281,23 +280,29 @@ h1 {
 }
 .support #openSupport {
   font-family: 'Montserrat', sans-serif;
+  background-color: #464646b3;
   display: block;
   color: #ededed;
   font-size: .5em;
   font-weight: 100;
   text-align: justify;
-  margin-left: 6%;
-  margin-bottom: 3%;
-  height: 30%;
-  width: 90%;
+  align-content: center;
+  padding: 5%;
+  height: 20%;
+  max-width: 100%;
   position: fixed;
   bottom: -3%;
   overflow: scroll;
-  animation: fadeInText ease 7s;
   transition: all ease-in 1s;
 }
 .support #support::after {
   content: " ⓧ";
+}
+.support #support {
+position: fixed;
+top: -20%;
+left: 10%;
+transform: rotate(0deg);
 }
 .support:hover {
   -webkit-filter: grayscale(0%) drop-shadow( 0 0 0px);
@@ -367,6 +372,12 @@ h1 {
 .about #about::after {
   content: " ⓧ";
 }
+.about #about {
+  position: fixed;
+  top: -5%;
+  left: 130%;
+  transform: rotate(0deg);
+  }
 .about:hover {
   -webkit-filter: grayscale(0%) drop-shadow( 0 0 0px);
   filter: grayscale(0%) drop-shadow( 0 0 0px);
@@ -435,6 +446,7 @@ h1 {
 .calendar #calendar::after {
   content: " ⓧ";
 }
+
 iframe:hover {
   -webkit-filter: grayscale(0%) drop-shadow( 0 0 0px);
   filter: grayscale(0%) drop-shadow( 0 0 0px);
@@ -535,5 +547,16 @@ iframe:hover {
     top: 25%;
     margin-top: 5%;
     margin-left: 10%;
+  }
+  .calendar #calendar {
+    position: fixed;
+    top: 20%;
+    left: 0%;
+  }
+    .support #support {
+      position: fixed;
+      top: -20%;
+      left: 10%;
+      transform: rotate(0deg);
   }
 }
