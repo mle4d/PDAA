@@ -208,6 +208,7 @@ h1 {
 }
 .scholarship #openScholarship {
   font-family: 'Montserrat', sans-serif;
+  background-color: #464646b3;
   display: block;
   color: #ededed;
   font-size: .5em;
@@ -216,7 +217,7 @@ h1 {
   align-content: center;
   padding: 5%;
   height: 25%;
-  max-width: 85%;
+  max-width: 100%;
   position: fixed;
   bottom: -3%;
   overflow: scroll;
