@@ -39,14 +39,14 @@ u {
   text-decoration-color: #f7867e;
 }
 h1 {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 100;
   line-height: 5%;
-  letter-spacing: 30px;
+  letter-spacing: 26px;
   font-size: 4em;
   color: #f0f0f0;
   position: fixed;
-  right: 4.3%;
+  right: 3.2%;
   top: 9%;
   z-index: -1;
   animation: fadeInArt ease-in 9s;
