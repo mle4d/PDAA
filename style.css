@@ -220,7 +220,7 @@ h1 {
   position: fixed;
   bottom: -3%;
   overflow: scroll;
-  animation: fadeInText ease 7s;
+  /* animation: fadeInText ease 7s; */
   transition: all ease-in 1s;
 }
 .scholarship #scholarship::after {
