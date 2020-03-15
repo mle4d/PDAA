@@ -337,19 +337,19 @@ transform: rotate(0deg);
 }
 .about #aboutopen {
   font-family: 'Montserrat', sans-serif;
+  background-color: #464646b3;
   display: block;
   color: #ededed;
   font-size: .5em;
   font-weight: 100;
   text-align: justify;
-  margin-left: 6%;
-  margin-bottom: 3%;
-  height: 30%;
-  width: 90%;
+  align-content: center;
+  padding: 5%;
+  height: 20%;
+  max-width: 100%;
   position: fixed;
   bottom: -3%;
   overflow: scroll;
-  animation: fadeInText ease 7s;
   transition: all ease-in 1s;
 }
 .about #about::after {
@@ -508,6 +508,7 @@ transform: rotate(0deg);
     position: fixed;
     top: 20%;
     left: 0%;
+    transform: rotate(0deg);
   }
     .support #support {
       position: fixed;
