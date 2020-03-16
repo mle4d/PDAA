@@ -472,7 +472,7 @@ transform: rotate(0deg);
     text-shadow: 1px 1px #f7867e, 2px 2px #f7867e;
   }
 }
-@media (min-width: 380px) and (max-width: 700px) {
+@media (min-width: 380px) and (max-width: 800px) {
   Header {
     text-align: center;
     position: fixed;
@@ -501,7 +501,7 @@ transform: rotate(0deg);
     text-shadow: 1px 1px #f7867e, 2px 2px #f7867e, 3px 3px #f7867e;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   html {
     background-size: 40%;
     background-position: -30% 0% fixed;
